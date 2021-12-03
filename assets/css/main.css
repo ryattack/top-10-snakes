@@ -1,0 +1,22 @@
+body {
+  background-image: url("../img/background.png");
+  height: 100%;
+}
+
+.container {
+  background-color: #e6e6e6;
+}
+
+.full-height {
+  height: 100%;
+}
+
+@media screen and (max-width: 575px){
+  .container {
+    background-color: #FFFFFFB0;
+  }
+
+  .header {
+    background-color: #e6e6e6;
+  }
+}
